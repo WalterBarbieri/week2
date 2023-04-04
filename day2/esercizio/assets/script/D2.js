@@ -79,3 +79,6 @@ document.getElementById('esercizio6').innerHTML = numeroTre - x;
 
 var name1 = 'john';
 var name2 = 'John';
+document.getElementById('esercizio7').innerHTML = name1 === name2;
+var result = name2.toLowerCase();
+document.getElementById('esercizio7_2').innerHTML = name1 === result;
