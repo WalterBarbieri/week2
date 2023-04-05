@@ -21,7 +21,7 @@ function controlla() {
     }
 }
 function conferma() {
-    document.getElementById('conferma').innerHTML = 'Form inviato correttamente; dati inseriti:<br> Nome: ${mioNome} - Cognome: ${mioCognome}';
+    document.getElementById('conferma').innerHTML = `Form inviato correttamente; dati inseriti:<br> Nome: ${mioNome} - Cognome: ${mioCognome}`;
     nomeUtente.value = '';
     cognomeUtente.value = '';
 }
