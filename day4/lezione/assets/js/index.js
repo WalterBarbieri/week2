@@ -4,6 +4,7 @@ var operazione;
 var numero1;
 var numero2;
 var risultato;
+var semaforo = true;
 
 window.addEventListener('load', init);
 function init() {
@@ -23,8 +24,12 @@ function leggi() {
             return;
         }
         calcola();
+        if (semaforo = true) {
         scrivi();
         cancellaform();
+        } else {
+            return;
+        }
     });
 }
 function controlla() {
@@ -52,9 +57,11 @@ function calcola() {
         case ('div'):
             if (numero2 == 0) {
                 document.getElementById('risultato').innerHTML = 'Non è possibile effettuare una divisione per 0!'
+                semaforo = false;
                 return;
             } else {
                 risultato = numero1 / numero2;
+                semaforo = true;
             }
             break;
 
