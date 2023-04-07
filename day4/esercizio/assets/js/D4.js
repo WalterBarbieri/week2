@@ -230,8 +230,8 @@ switch (true) {
   case crewMass > 1000:
     console.log('DANGER! OVERLOAD ALERT: Jump ship now!');
     break;
-    default:
-      console.log('no data provided');
+  default:
+    console.log('no data provided');
 }
 
 /* ESERCIZIO 8
@@ -263,7 +263,7 @@ console.log('CHARACTERS BEFORE', characters.length);
 
 for (let i = 0; i < characters.length; i++) {
   const character = characters[i];
-  
+
   for (let j = 0; j < femaleCharacters.length; j++) {
     const femCharacter = femaleCharacters[j];
 
@@ -289,7 +289,7 @@ if (selectedCharacter.gender === 'female') {
 } else {
   console.log('He is ', selectedCharacter.height, ' cm tall');
 }
-if (selectedCharacter.hair_color !== 'n/a' && selectedCharacter.hair_color !== 'none' ) {
+if (selectedCharacter.hair_color !== 'n/a' && selectedCharacter.hair_color !== 'none') {
   console.log('and has', selectedCharacter.hair_color, 'hair',);
 } else {
   console.log('and bald,');
