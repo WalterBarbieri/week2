@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E9EDEE;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+.banner {
+    background-color: #222F3F;
+}
+.banner img {
+    width: 10%;
+    margin: 10px 0;
+    margin-left: 20px;
+}
+.textwhite {
+    color: white;
+    background-color: #364759;
+}
+nav p {
+    margin: 0;
+    padding: 10px;
+    padding-left: 30px;
+}
+main {
+    margin: 30px;
+}
+#giftcard {
+    background-color: #F56602;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#giftcard p {
+    margin: 0;
+    padding: 10px 0;
+}
+#giftguides {
+    background-image: url('../img/bg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#giftguides h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#giftguides h3 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#perfectgift {
+    background-color: white;
+    margin: 50px 0;
+    padding-top: 20px;
+}
+#perfectgift h2 {
+    margin-left: 20px;
+}
+.link {
+    color: #74ABB2;
+    font-size: 0.7em;
+}
+#immagini img {
+    width: 21%;
+    max-height: 500px;
+    min-height: 500px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #00000066;
+    
+
+}
+.sectionimage img {
+    width: 100%;
+}
+.titolicentrati {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#return {
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+    font-size: 1.1em;
+}
+#last {
+    text-align: center;
+}
+#last img {
+    width: 15%;
+    margin: 50px 0;
+}
