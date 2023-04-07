@@ -64,6 +64,9 @@ main {
     color: #74ABB2;
     font-size: 0.7em;
 }
+#immagini {
+    text-align: center;
+}
 #immagini img {
     width: 21%;
     max-height: 500px;
